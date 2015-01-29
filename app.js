@@ -1,15 +1,9 @@
 var express = require('express'),
     app = express(), //create server Express
-    bodyParser = require('body-parser'),
-    favicon = require('serve-favicon'),
     server = require('http').createServer(app), 
     io = require('socket.io').listen(server);
 
-//var sp = require('./suplib'); //connect support library
-
 app.set('views/', __dirname); //for jade rendering
-//app.use(favicon('web/other/console.ico')); //icon of site
-app.use(bodyParser.urlencoded({ extended: false })); //for ajax json
 app.use(express.static(__dirname + '/web')); //for css and js files
 
 app.get('/', function(req, res) {

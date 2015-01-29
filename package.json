@@ -1,0 +1,32 @@
+{
+  "name": "Blank_Nodejs_Socket_Project",
+  "version": "0.0.1",
+  "description": "Blank node.js socket project for quick start!",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.10.2",
+    "express": "^4.11.1",
+    "jade": "^1.9.1",
+    "serve-favicon": "^2.2.0",
+    "socket.io": "^1.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DarkScorpion/Blank_Nodejs_Socket_Project.git"
+  },
+  "keywords": [
+    "node.js",
+    "socket",
+    "blank"
+  ],
+  "author": "Alex Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DarkScorpion/Blank_Nodejs_Socket_Project/issues"
+  },
+  "homepage": "https://github.com/DarkScorpion/Blank_Nodejs_Socket_Project"
+}
